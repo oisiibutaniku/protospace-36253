@@ -7,7 +7,8 @@
     <% if user_signed_in? %>
        <div class="greeting"> 
         こんにちは、
-         <%= link_to current_user.name, user_path(current_user) %>
+         <%= link_to current_user.name, user_path(current_user)%>
+         さん
       </div>
     <% end %>
     <div class="card__wrapper">
